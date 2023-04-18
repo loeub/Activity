@@ -14,7 +14,7 @@ export class BatMobile {
         }
         return speed;
     }
-    getSpeed():number { 
-        
+    getSpeed() {
+      // TODO document why this method 'getSpeed' is empty
     }
 }

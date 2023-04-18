@@ -1,9 +1,9 @@
-import { Vehical } from "./Vehicle";
+import { Vehicle } from "./Vehicle";
 
-export class TucTuc extends Vehical{
+export class TucTuc extends Vehicle{
     public numberCustomers: number;
-    constructor(numberCustomers: number){
-        super();
+    constructor(numberCustomers: number, plateID: string, weight: number){
+        super(plateID, weight);
         this.numberCustomers = numberCustomers;
     }
     
@@ -13,6 +13,6 @@ export class TucTuc extends Vehical{
         return tuctucSpeed;
     }
     getSpeed():number { 
-        
+        return 
     }
 }

@@ -15,6 +15,9 @@ var BatMobile = /** @class */ (function () {
         }
         return speed;
     };
+    BatMobile.prototype.getSpeed = function () {
+        // TODO document why this method 'getSpeed' is empty
+    };
     return BatMobile;
 }());
 exports.BatMobile = BatMobile;

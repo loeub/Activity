@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Vehical = void 0;
-var Vehical = /** @class */ (function () {
-    function Vehical(plateID, weight) {
+exports.Vehicle = void 0;
+var Vehicle = /** @class */ (function () {
+    function Vehicle(plateID, weight) {
         this.plateID = plateID;
         this.weight = weight;
         this.plateID = plateID;
         this.weight = weight;
     }
-    return Vehical;
+    return Vehicle;
 }());
-exports.Vehical = Vehical;
+exports.Vehicle = Vehicle;

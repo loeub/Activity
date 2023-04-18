@@ -7,9 +7,9 @@ import { TucTuc } from "./TucTuc";
 
 
 
-let tuctucPassenger = new TucTuc(4);
+let tuctucPassenger = new TucTuc(4, "01", 2);
 let BatMan = new BatMobile(false);
-let Passenger = new MiniVan(2, 4);
+let Passenger = new MiniVan(2, 4, "01", 3);
 
 
 

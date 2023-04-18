@@ -1,9 +1,11 @@
-export class MiniVan {
+import { Vehicle } from "./Vehicle";
+
+export class MiniVan extends Vehicle {
     numberCustomers: number;
     numberLggage : number;
-    numberLuggage: number;
 
-    constructor (numberCustomers: number, numberLggage: number){
+    constructor (numberCustomers: number, numberLggage: number, plateID: string, weight: number){
+        super(plateID, weight);
         this.numberCustomers = numberCustomers;
         this.numberLggage = numberLggage;
     }
@@ -13,7 +15,8 @@ export class MiniVan {
         miniSpeed -= ((this.numberCustomers * 10) + (this.numberLggage * 5))
         return miniSpeed;
     }
-    getSpeed():number { 
-        
+    getSpeed():number {
+      // TODO document why this method 'getSpeed' is empty
+        return
     }
 }
