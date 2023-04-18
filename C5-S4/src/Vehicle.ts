@@ -6,4 +6,6 @@ export abstract class Vehical {
         this.plateID = plateID;
         this.weight = weight;
     }
+
+    abstract getSpeed(): number;
 }

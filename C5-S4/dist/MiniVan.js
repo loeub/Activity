@@ -8,12 +8,7 @@ var MiniVan = /** @class */ (function () {
     }
     MiniVan.prototype.miniVanSpeed = function () {
         var miniSpeed = 130;
-        if (this.numberCustomers >= 1) {
-            miniSpeed -= 10;
-        }
-        else if (this.numberLggage >= 1) {
-            miniSpeed -= 5;
-        }
+        miniSpeed -= ((this.numberCustomers * 10) + (this.numberLggage * 5));
         return miniSpeed;
     };
     return MiniVan;
