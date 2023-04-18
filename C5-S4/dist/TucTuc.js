@@ -1,11 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Tuctuc = void 0;
-var Tuctuc = /** @class */ (function () {
-    function Tuctuc(numberCustomer) {
-        this.numberCustomer = numberCustomer;
-        this.numberCustomer = numberCustomer;
+exports.TucTuc = void 0;
+var TucTuc = /** @class */ (function () {
+    function TucTuc(numberCustomers) {
+        this.numberCustomers = numberCustomers;
     }
-    return Tuctuc;
+    return TucTuc;
 }());
-exports.Tuctuc = Tuctuc;
+exports.TucTuc = TucTuc;

@@ -6,7 +6,4 @@ export abstract class Vehical {
         this.plateID = plateID;
         this.weight = weight;
     }
-
-
-    
 }
