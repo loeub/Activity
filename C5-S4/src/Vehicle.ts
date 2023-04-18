@@ -1,4 +1,4 @@
-export abstract class Vehical {
+export abstract class Vehicle {
     constructor(
         private plateID: string, 
         private weight: number

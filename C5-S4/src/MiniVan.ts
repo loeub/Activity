@@ -13,4 +13,7 @@ export class MiniVan {
         miniSpeed -= ((this.numberCustomers * 10) + (this.numberLggage * 5))
         return miniSpeed;
     }
+    getSpeed():number { 
+        
+    }
 }

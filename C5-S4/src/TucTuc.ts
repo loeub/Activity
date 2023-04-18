@@ -12,7 +12,7 @@ export class TucTuc extends Vehical{
         tuctucSpeed -=(this.numberCustomers * 5)
         return tuctucSpeed;
     }
-    getSpeed(): number {
-        throw new Error("Method not implemented.");
+    getSpeed():number { 
+        
     }
 }

@@ -14,4 +14,7 @@ export class BatMobile {
         }
         return speed;
     }
+    getSpeed():number { 
+        
+    }
 }
